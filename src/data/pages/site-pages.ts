@@ -13,20 +13,20 @@ export const faqPage: PageContent = {
   h1: `${site.gameName} FAQ`,
   seoTitle: `${site.gameName} FAQ | Common Questions`,
   metaDescription:
-    `Frequently asked questions about ${site.gameName} on Roblox (Universe 10577682617): codes, stages, how to play, updates, and controls.`,
+    `Frequently asked questions about ${site.gameName} on Roblox (Universe 10577682617): builder/tycoon loop, codes, how to play, updates, and controls.`,
   summary:
-    "A consolidated FAQ covering the codes, stages, how-to-play, updates, and controls questions that come up around Build a +1 Obby.",
+    "A consolidated FAQ covering the builder/tycoon loop, codes, how-to-play, updates, and controls questions that come up around Build an +1 Obby.",
   hero: {
     eyebrow: "FAQ",
     subtitle:
-      "A consolidated FAQ covering the codes, stages, how-to-play, updates, and controls questions that come up around Build a +1 Obby.",
+      "A consolidated FAQ covering the builder/tycoon loop, codes, how-to-play, updates, and controls questions that come up around Build an +1 Obby.",
     ctas: [
       { label: "Read How to Play", href: "/how-to-play" },
       { label: "View Codes", href: "/codes" },
     ],
   },
   quickAnswer:
-    "This FAQ is a consolidation of the questions that recur across the codes, stages, how-to-play, updates, and controls pages. For deeper walkthroughs and the latest status, follow the links into the dedicated page.",
+    "This FAQ is a consolidation of the questions that recur across the builder bases, codes, how-to-play, updates, and controls pages. For deeper walkthroughs and the latest status, follow the links into the dedicated page.",
   keyFacts: [
     { label: "Source rule", value: "Official Roblox game page + Aeolian Harp social" },
     { label: "Universe", value: "10577682617" },
@@ -38,14 +38,14 @@ export const faqPage: PageContent = {
       type: "prose",
       heading: "FAQ overview",
       body:
-        "All answers on this page are sourced from the official Roblox game page for Universe 10577682617, the Roblox Games API metadata, the Creator Group Aeolian Harp social channels, or the standard Roblox client defaults that Build a +1 Obby inherits. Unconfirmed items are labeled with the research date.",
+        "All answers on this page are sourced from the official Roblox game page for Universe 10577682617, the Roblox Games API metadata, the Creator Group Aeolian Harp social channels, or the standard Roblox client defaults that Build an +1 Obby inherits. Unconfirmed items are labeled with the research date.",
     },
   ],
   faqIds: [
     "are-codes-active",
     "how-to-redeem",
     "is-builda1obby-free",
-    "what-does-plus1-do",
+    "what-does-builder-tycoon-do",
     "how-many-stages",
     "when-latest-update",
     "basic-controls",
@@ -54,7 +54,7 @@ export const faqPage: PageContent = {
   relatedPageIds: ["home", "build-a-1-obby-codes", "guides", "wiki", "build-a-1-obby-updates", "build-a-1-obby-controls"],
   schemaTypes: ["FAQPage", "BreadcrumbList"],
   sourceStatus: "official",
-  lastReviewed: "2026-09-10",
+  lastReviewed: "2026-09-11",
 };
 
 export const aboutPage: PageContent = {
@@ -69,17 +69,17 @@ export const aboutPage: PageContent = {
   h1: `About ${site.name}`,
   seoTitle: `About ${site.name}`,
   metaDescription:
-    `About ${site.name}: an unofficial English-language reference hub for ${site.gameName} on Roblox (Universe 10577682617), covering codes, stages, how to play, updates, and controls.`,
+    `About ${site.name}: an unofficial English-language reference hub for ${site.gameName} on Roblox (Universe 10577682617), covering the builder/tycoon loop, codes, updates, and controls.`,
   summary:
-    "An unofficial English-language reference hub for Build a +1 Obby on Roblox, with sourcing rules and scope notes for first launch.",
+    "An unofficial English-language reference hub for Build an +1 Obby on Roblox, with sourcing rules and scope notes for first launch.",
   hero: {
     eyebrow: "About",
     subtitle:
-      "An unofficial English-language reference hub for Build a +1 Obby on Roblox. Scope, sourcing, and editorial principles for first launch.",
+      "An unofficial English-language reference hub for Build an +1 Obby on Roblox. Scope, sourcing, and editorial principles for first launch.",
     ctas: [{ label: "Contact", href: "/contact" }],
   },
   quickAnswer:
-    `${site.name} is an unofficial English-language reference hub for ${site.gameName} on Roblox (Universe 10577682617). The site publishes a dated reading of the codes, stages, updates, how-to-play, and controls surfaces — all sourced from the official Roblox game page, the Roblox Games API, and the Creator Group Aeolian Harp social channels.`,
+    `${site.name} is an unofficial English-language reference hub for ${site.gameName} on Roblox (Universe 10577682617). The site publishes a dated reading of the builder/tycoon loop, codes, updates, and controls surfaces — all sourced from the official Roblox game page, the Roblox Games API, and the Creator Group Aeolian Harp social channels.`,
   keyFacts: [
     { label: "Status", value: "Unofficial fan guide" },
     { label: "Editorial rule", value: "Official facts first, dated for every claim" },
@@ -91,28 +91,28 @@ export const aboutPage: PageContent = {
       type: "prose",
       heading: "Mission",
       body:
-        "Help Build a +1 Obby players find clear, well-structured information — current codes, the curated stage roster, the run-stage collect +1 grow clear loop, the latest update timestamp, and the standard control layout — without pretending the site knows more than official sources support.",
+        "Help Build an +1 Obby players find clear, well-structured information — the ASMR shop → base placement → publish → earn loop, current codes, the latest update timestamp, and the standard control layout — without pretending the site knows more than official sources support.",
     },
     {
       id: "sourcing",
       type: "prose",
       heading: "Sourcing",
       body:
-        "Only the official Roblox game page for Universe 10577682617, the official Roblox Games API multi-get endpoint, and the Creator Group Aeolian Harp social channels may establish current-game facts for Build a +1 Obby. Established Roblox games media is cited as attributed community reference, never as the primary fact source. Anything that cannot be verified against those sources is labeled Not announced as of 2026-09-10 or Not officially documented as of 2026-09-10.",
+        "Only the official Roblox game page for Universe 10577682617, the official Roblox Games API multi-get endpoint, and the Creator Group Aeolian Harp social channels may establish current-game facts for Build an +1 Obby. Established Roblox games media is cited as attributed community reference, never as the primary fact source. Anything that cannot be verified against those sources is labeled Not announced as of 2026-09-10, Not officially documented as of 2026-09-10, or Not publicly documented as of 2026-09-10 (e.g. ASMR prices, money rates, visitor counters).",
     },
     {
       id: "scope",
       type: "prose",
       heading: "Scope",
       body:
-        "Six fixed pages cover the codes, updates, stages, how-to-play, tips, and controls surfaces. No entity family is admitted at first launch because the stage list is currently sequential and curated rather than a stable shared schema. No tool page is admitted because the +1 mechanic is trivially previous + 1 and the obby corridor does not need a calculator probe.",
+        "Six fixed pages cover the codes, updates, builder bases, how-to-play, tips, and controls surfaces. The /stages page is treated as a builder-bases reference (base layout, ASMR placement, obby publish flow) rather than a sequential stage list, because the official description is a builder/tycoon loop. No entity family is admitted at first launch because the game does not publish a stable shared schema. No tool page is admitted because the ASMR shop is the only place the create-time numbers are surfaced.",
     },
   ],
-  faqIds: ["is-builda1obby-free", "what-is-builda1obby"],
+  faqIds: ["is-builda1obby-free", "what-is-builda1obby", "what-does-builder-tycoon-do"],
   relatedPageIds: ["home", "contact", "privacy-policy", "terms"],
   schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
   sourceStatus: "internal",
-  lastReviewed: "2026-09-10",
+  lastReviewed: "2026-09-11",
 };
 
 export const contactPage: PageContent = {
@@ -237,11 +237,11 @@ export const termsPage: PageContent = {
   metaDescription:
     `Terms of use for ${site.name}: unofficial status, informational use, and acceptable use boundaries.`,
   summary:
-    "Starter terms for an unofficial Build a +1 Obby reference site: unofficial status, informational use, and acceptable use boundaries.",
+    "Starter terms for an unofficial Build an +1 Obby reference site: unofficial status, informational use, and acceptable use boundaries.",
   hero: {
     eyebrow: "Terms",
     subtitle:
-      "Unofficial status, informational use only, and acceptable use boundaries for the Build a +1 Obby reference site.",
+      "Unofficial status, informational use only, and acceptable use boundaries for the Build an +1 Obby reference site.",
     ctas: [{ label: "Privacy Policy", href: "/privacy-policy" }],
   },
   quickAnswer:
@@ -249,7 +249,7 @@ export const termsPage: PageContent = {
   keyFacts: [
     { label: "Use", value: "Informational reference only" },
     { label: "Official status", value: "Unofficial fan site" },
-    { label: "Trademarks", value: "Roblox and Build a +1 Obby belong to their respective rights holders" },
+    { label: "Trademarks", value: "Roblox and Build an +1 Obby belong to their respective rights holders" },
   ],
   modules: [
     {
@@ -257,7 +257,7 @@ export const termsPage: PageContent = {
       type: "prose",
       heading: "Unofficial site",
       body:
-        `This site is not affiliated with Roblox Corporation, the Creator Group Aeolian Harp, or any trademark holder for Build a +1 Obby. All game facts, brand names, and Roblox Universe IDs referenced on ${site.name} are used for identification and informational purposes only.`,
+        `This site is not affiliated with Roblox Corporation, the Creator Group Aeolian Harp, or any trademark holder for Build an +1 Obby. All game facts, brand names, and Roblox Universe IDs referenced on ${site.name} are used for identification and informational purposes only.`,
     },
     {
       id: "accuracy",

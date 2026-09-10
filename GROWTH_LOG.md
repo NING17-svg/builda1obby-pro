@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-11 - Builder basics: ASMR shop, base building, money loop
+
+- Task: Rewrite the homepage quickAnswer and the /how-to-play page to describe the actual builder/tycoon loop (ASMR shop -> base placement -> publish obby -> earn money from visitors) per the official Roblox description for Universe 10577682617. Add a first-server checklist (open shop, buy first ASMR, place it, publish, monitor earnings). Refresh the live stats to the 2026-09-10 API snapshot and the latest update timestamp to 2026-09-07T17:15:13Z. Update the title to Build an +1 Obby. Rewrite or retire the /stages page (which used to list Stage 1 / Stage 2 / Stage 3 / Stage 4+ as Not announced) to a builder-bases reference, cross-link it from the homepage, and add a disclaimer that ASMR names, prices, money rates, and visitor counters are not publicly documented.
+- Files changed: `src/data/site.ts`, `src/data/pages/home.ts`, `src/data/pages/fixed-pages.ts` (`howToPlayPage`, `stagesPage`, `updatesPage`, `controlsPage`, `codesPage`), `src/data/pages/site-pages.ts` (`faqPage`, `aboutPage`), `src/data/faq.ts`, `CONTENT_INDEX.md`, `GROWTH_LOG.md`.
+- URLs affected: `/`, `/how-to-play`, `/stages`, `/codes`, `/updates`, `/controls`, `/faq`, `/about`, `/privacy-policy`, `/terms`.
+- SEO/GEO changed: Homepage and /how-to-play quickAnswers now describe the ASMR shop -> base placement -> publish -> earn loop. /stages is now a builder-bases reference; the stage 1/2/3/4+ roster is labeled Not part of Build an +1 Obby as of 2026-09-10. H1 and SEO title across the site use Build an +1 Obby. Live stats on /, /how-to-play, and /updates use the 2026-09-10 API snapshot. New FAQ items added: what-does-builder-tycoon-do, where-to-find-asmr-prices.
+- Verification: `npm run verify` required before push.
+
 ### 2026-09-10 - Adsterra fixed six-unit ads-on baseline added
 
 - Task: Replace the six empty Adsterra placeholder values with real publisher code from the fixed Native Banner, 728x90, 468x60, 320x50, 160x600, and Smartlink units for builda1obby.pro.
