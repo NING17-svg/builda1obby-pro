@@ -6,6 +6,15 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-10 - Adsterra fixed six-unit ads-on baseline added
+
+- Task: Replace the six empty Adsterra placeholder values with real publisher code from the fixed Native Banner, 728x90, 468x60, 320x50, 160x600, and Smartlink units for builda1obby.pro.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None.
+- SEO/GEO changed: None.
+- Ad baseline: Six fixed Adsterra unit values populated; Smartlink is the standard HTTP(S) smartlink URL and the remaining five units carry their standard script tags. The page DOM container keeps rendering the unit values directly without a sandboxed `srcDoc` iframe.
+- Verification: `npm run verify` required before push.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
