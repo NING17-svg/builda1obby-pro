@@ -39,7 +39,7 @@ export const homePage: PageContent = {
       type: "prose",
       heading: "What is " + site.gameName + " on Roblox?",
       body:
-        `${site.gameName} is a Roblox Experience published under Roblox Universe ID 10577682617 and attributed to the Creator Group Aeolian Harp. It entered the Roblox Build now up-and-coming list at rank 10 on 2026-09-05, with a brief snapshot of 10,196 concurrent players, 4,671,223 visits, and 13,178 favorites. The Universe is brand-new — created on 2026-07-27 — so there is no prior release, no legacy version, and no separate title. The phrases "build a 1 obby" and "+1 obby" both refer to the same Universe; they are not different games.`,
+        `${site.gameName} is a Roblox Experience published under Roblox Universe ID 10577682617 and attributed to the Creator Group Aeolian Harp. According to the game-check brief snapshot from 2026-09-05, the Universe had 10,196 concurrent players, 4,671,223 visits, and 13,178 favorites. The Universe is brand-new — created on 2026-07-27 — so there is no prior release, no legacy version, and no separate title. The phrases "build a 1 obby" and "+1 obby" both refer to the same Universe; they are not different games.`,
     },
     {
       id: "mechanic-overview",

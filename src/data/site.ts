@@ -30,8 +30,8 @@ export const site: SiteConfig = {
   domain: "builda1obby.pro",
   baseUrl: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com").replace(/\/$/, ""),
   description:
-    "A neutral game guide hub template for launch pages, wiki notes, guides, release information, and FAQs.",
-  tagline: "Guides, wiki notes, release info, and launch FAQs in one clean hub.",
+    "An unofficial English-language reference hub for Build a +1 Obby on Roblox (Universe 10577682617): codes, stages, how to play, updates, and controls.",
+  tagline: "Codes, stages, how to play, updates, and controls for Build a +1 Obby — all dated to 2026-09-10.",
   primaryLocale: "en-US",
   locales: [
     {
@@ -53,7 +53,7 @@ export const site: SiteConfig = {
       },
     },
   ],
-  author: "Template Game Guide",
+  author: "Build a +1 Obby Guide",
   gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
   bingSiteAuthCode: process.env.NEXT_PUBLIC_BING_SITE_AUTH_CODE || "",
   officialSources: [
