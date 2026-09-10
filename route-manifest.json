@@ -1,0 +1,122 @@
+[
+  {
+    "id": "home",
+    "translationKey": "home",
+    "locale": "en-US",
+    "routeKind": "home",
+    "url": "/",
+    "alternates": {
+      "en-US": "/"
+    }
+  },
+  {
+    "id": "about",
+    "translationKey": "about",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/about",
+    "alternates": {
+      "en-US": "/about"
+    }
+  },
+  {
+    "id": "build-a-1-obby-codes",
+    "translationKey": "build-a-1-obby-codes",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/codes",
+    "alternates": {
+      "en-US": "/codes"
+    }
+  },
+  {
+    "id": "contact",
+    "translationKey": "contact",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/contact",
+    "alternates": {
+      "en-US": "/contact"
+    }
+  },
+  {
+    "id": "build-a-1-obby-controls",
+    "translationKey": "build-a-1-obby-controls",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/controls",
+    "alternates": {
+      "en-US": "/controls"
+    }
+  },
+  {
+    "id": "faq",
+    "translationKey": "faq",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/faq",
+    "alternates": {
+      "en-US": "/faq"
+    }
+  },
+  {
+    "id": "guides",
+    "translationKey": "build-a-1-obby-how-to-play",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/how-to-play",
+    "alternates": {
+      "en-US": "/how-to-play"
+    }
+  },
+  {
+    "id": "privacy-policy",
+    "translationKey": "privacy-policy",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/privacy-policy",
+    "alternates": {
+      "en-US": "/privacy-policy"
+    }
+  },
+  {
+    "id": "wiki",
+    "translationKey": "build-a-1-obby-stages",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/stages",
+    "alternates": {
+      "en-US": "/stages"
+    }
+  },
+  {
+    "id": "terms",
+    "translationKey": "terms",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/terms",
+    "alternates": {
+      "en-US": "/terms"
+    }
+  },
+  {
+    "id": "build-a-1-obby-tips",
+    "translationKey": "build-a-1-obby-tips",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/tips",
+    "alternates": {
+      "en-US": "/tips"
+    }
+  },
+  {
+    "id": "build-a-1-obby-updates",
+    "translationKey": "build-a-1-obby-updates",
+    "locale": "en-US",
+    "routeKind": "fixed",
+    "url": "/updates",
+    "alternates": {
+      "en-US": "/updates"
+    }
+  }
+]
